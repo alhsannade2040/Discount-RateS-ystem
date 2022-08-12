@@ -3,22 +3,22 @@ package com.example.discountratesystem;
 import java.util.Date;
 
 public class visit {
-    private Customer name;
+    private Customer customer;
     private Date date;
     private double serviceExpense;
     private double productExpense;
 
-    public visit(Customer cus, Date date) {
+//    public visit(Customer cus, Date date) {
+//
+//    }
 
-    }
-
-    public void Visit(Customer name, Date date) {
-        this.name = name;
+    public visit(Customer name, Date date) {
+        this.customer = name;
         this.date = date;
     }
 
     public String getCustomerName() {
-        return name.getName();
+        return customer.getName(); // it could be Null
     }
 
     public double getServiceExpense() {
@@ -34,21 +34,21 @@ public class visit {
     }
 
     public void setProductExpense(double productExpense) {
-        this.productExpense = this.productExpense + productExpense;
+        this.productExpense +=  productExpense;
     }
 
     public double getTotalExpense() {
-        return  (serviceExpense - (serviceExpense * DiscountRate.getServiceDiscountRate(name.getMemberType()))) +
-                (productExpense - (productExpense * DiscountRate.getProductDiscountRate(name.getMemberType())));
+        return  (serviceExpense - (serviceExpense * DiscountRate.getServiceDiscountRate(customer.getMemberType()))) +
+                (productExpense - (productExpense * DiscountRate.getProductDiscountRate(customer.getMemberType())));
 
     }
 
     @Override
     public String toString() {
         return "Visit{" +
-                "customer name=" + name.getName() +
-                ", customer member=" + name.getMember() +
-                ", customer member type=" + name.getMemberType() +
+                "customer name=" + customer.getName() +
+                ", customer member=" + customer.getMember() +
+                ", customer member type=" + customer.getMemberType() +
                 ", date=" + date +
                 ", serviceExpense=" + serviceExpense +
                 ", productExpense=" + productExpense +

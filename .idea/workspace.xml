@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c58ed0f-502a-4f02-99bb-8cda27bdb85b" name="Changes" comment="finally">
+    <list default="true" id="6c58ed0f-502a-4f02-99bb-8cda27bdb85b" name="Changes" comment="After main function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/DiscountRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/DiscountRate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/visit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.example.discountratesystem.TestDiscountSystem">
     <configuration name="TestDiscountSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="www3.ntu.edu.TestDiscountSystem" />
       <module name="DiscountRateSystem" />
@@ -67,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.discountratesystem.TestDiscountSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.discountratesystem.TestDiscountSystem" />
+      <module name="DiscountRateSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.discountratesystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.discountratesystem.TestDiscountSystem" />
         <item itemvalue="Application.TestDiscountSystem" />
       </list>
     </recent_temporary>
@@ -103,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660296940743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="After main function">
+      <created>1660317004886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660317004886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +140,7 @@
     <MESSAGE value="a new project DiscountRate" />
     <MESSAGE value="after making it" />
     <MESSAGE value="finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally" />
+    <MESSAGE value="After main function" />
+    <option name="LAST_COMMIT_MESSAGE" value="After main function" />
   </component>
 </project>
