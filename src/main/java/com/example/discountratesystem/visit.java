@@ -8,6 +8,10 @@ public class visit {
     private double serviceExpense;
     private double productExpense;
 
+    public visit(Customer cus, Date date) {
+
+    }
+
     public void Visit(Customer name, Date date) {
         this.name = name;
         this.date = date;
@@ -43,7 +47,7 @@ public class visit {
     public String toString() {
         return "Visit{" +
                 "customer name=" + name.getName() +
-                ", customer member=" + name.isMember() +
+                ", customer member=" + name.getMember() +
                 ", customer member type=" + name.getMemberType() +
                 ", date=" + date +
                 ", serviceExpense=" + serviceExpense +

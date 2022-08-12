@@ -1,13 +1,13 @@
 package com.example.discountratesystem;
 
 public class Customer {
-    private String name;
-    private boolean member;
+    private String name ;
+    private boolean member; // it means true or false
     private String memberType;
 
-    public Customer() {
-        this.member = false;
-    }
+    public Customer() { // no argument constructor
+        this.member = false; // if we deleted this ?
+    } // according to the question
 
     public Customer(String name, boolean member, String memberType) {
         this.name = name;
@@ -15,11 +15,11 @@ public class Customer {
         this.memberType = memberType;
     }
 
-    public String getName() {
+    public String getName() { // he says its Null
         return name;
     }
 
-    public boolean isMember() {
+    public boolean getMember() {
         return member;
     }
 

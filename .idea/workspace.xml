@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c58ed0f-502a-4f02-99bb-8cda27bdb85b" name="Changes" comment="after making it">
+    <list default="true" id="6c58ed0f-502a-4f02-99bb-8cda27bdb85b" name="Changes" comment="finally">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/DiscountRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/DiscountRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/visit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -47,6 +53,26 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestDiscountSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="www3.ntu.edu.TestDiscountSystem" />
+      <module name="DiscountRateSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="www3.ntu.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDiscountSystem" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660296661023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finally">
+      <created>1660296940743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660296940743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a new project DiscountRate" />
     <MESSAGE value="after making it" />
-    <option name="LAST_COMMIT_MESSAGE" value="after making it" />
+    <MESSAGE value="finally" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally" />
   </component>
 </project>
