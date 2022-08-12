@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c58ed0f-502a-4f02-99bb-8cda27bdb85b" name="Changes" comment="a new project DiscountRate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/Customer.java" afterDir="false" />
+    <list default="true" id="6c58ed0f-502a-4f02-99bb-8cda27bdb85b" name="Changes" comment="after making it">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/DiscountRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/DiscountRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/discountratesystem/visit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660295775359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="after making it">
+      <created>1660296661023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660296661023</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a new project DiscountRate" />
-    <option name="LAST_COMMIT_MESSAGE" value="a new project DiscountRate" />
+    <MESSAGE value="after making it" />
+    <option name="LAST_COMMIT_MESSAGE" value="after making it" />
   </component>
 </project>

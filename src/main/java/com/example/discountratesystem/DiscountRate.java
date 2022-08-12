@@ -3,8 +3,6 @@ package com.example.discountratesystem;
 public class DiscountRate {
 
     /**
-     * Created by etenbrinke on 30/11/15.
-     * https://www3.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html
      *
      * You are asked to write a discount system for a beauty saloon, which provides services and sells beauty products.
      * It offers 3 types of memberships: Premium, Gold and Silver.
